@@ -43,7 +43,7 @@ def get_palette():
     Get palette colors for binary segmentation visualization.
     """
     color_map = {
-        "100": (255, 255, 255)  # 白色，测试用
+        "100": (255, 255, 255)
     }
     palette = [0] * 768
     for idx, (label_id, color) in enumerate(color_map.items()):
