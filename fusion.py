@@ -36,7 +36,7 @@ def fusion_PV_with_ANDPI(tiff_path, rgb_path, old_mask_path, new_mask_path, save
 
 
 if __name__ == '__main__':
-    data_root = './datas'
+    data_root = './data'
     pv_names = os.listdir(data_root)
     for pv_name in tqdm(pv_names, total=len(pv_names)):
         pv_path = os.path.join(data_root, pv_name)
