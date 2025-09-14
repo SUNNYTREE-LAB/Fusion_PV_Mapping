@@ -23,6 +23,18 @@ Our mapping product will be publicly available on [Zenodo]()
 1. TZ-SAM: https://www.transitionzero.org/products/solar-asset-mapper/download
 2. ChinaPV: https://doi.org/10.6084/m9.figshare.25347880.v1
 3. GlobalPV:https://cxh1216.users.earthengine.app/view/solarpv-bnu
+
+## 🔥Usage
+There are two steps to realize our proposed multi-source data fusion method for PV power plant extraction.
+### Download the preprocessed data.
+1. Our cases can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1nS-LVr2jhYIkXBeiRs4hzLsfD-d3Iryi?usp=sharing)
+or [Baidu Netdisk](https://pan.baidu.com/s/172XVS8_vsbFg46Ae3HML2Q?pwd=v9wc)
+2. Put the file in folder `./data/`
+### Fusion
+Run fusion code:
+```shell
+python fusion.py
+```
 ## 💡Global PV Mapping Result
 ![image](assets/mapping_2025.png)
 
