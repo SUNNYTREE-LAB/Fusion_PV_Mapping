@@ -1,11 +1,9 @@
 # Fusion PV Mapping
-📢 <font size=3>**Our code and product will be made public available once the paper is accepted**</font>  
+📢 <font size=3>**Our code and product will be made publicly available once the paper is accepted**</font>  
 The official code of paper: Mapping global photovoltaic power plants via adaptive
 normalized difference photovoltaic index-based multi-source data fusion method  
-![image](assets/framework.png)
 ✨**Abstract:** This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index
-(ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2
-imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to 2025Q2.
+(ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to 2025Q2.
 
 ## 🏆Mapping Product
 Our mapping product will be publicly available on [Zenodo]()
