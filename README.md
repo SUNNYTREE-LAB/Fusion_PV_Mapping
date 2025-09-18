@@ -1,9 +1,11 @@
-# Fusion PV Mapping
-📢 <font size=3>**Our code and product will be made publicly available once the paper is accepted**</font>  
-The official code of paper: **Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method**  
-✨**Abstract:** This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index
-(ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to 2025Q2.
+<h1 align="center"> Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method </h1>
 
+## 🗓️ TODO
+- [ ] Release code and product once the paper is accepted.
+- [x] **[2025.09.18]** We establish homepage of this paper
+
+## 📖 Abstract
+This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index (ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to 2025Q2.
 ## 🏆Mapping Product
 Our mapping product will be publicly available on [Zenodo]()
 
@@ -21,15 +23,16 @@ Our mapping product will be publicly available on [Zenodo]()
 2. ChinaPV: https://doi.org/10.6084/m9.figshare.25347880.v1
 3. GlobalPV:https://cxh1216.users.earthengine.app/view/solarpv-bnu
 ## 💡Global PV Mapping Result
+### Distribution of global PV power plants in 2025
 ![image](assets/mapping_2025.png)
 
 ## 📜Citation
 If you use our product or this study is helpful for you, please cite this project.
 ```bibtex
-@inproceedings{,
-  title={},
-  author={},
-  booktitle={},
+@article{FusionPVMapping,
+  title={Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method},
+  author={Xiaopeng Zeng, Weilu Sun, Mingming Jia, Zhaohui Xue and Liqun Sun},
+  journal={},
   year={2025}
 }
 ```
