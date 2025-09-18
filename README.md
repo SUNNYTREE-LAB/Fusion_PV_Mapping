@@ -22,9 +22,14 @@ Our mapping product will be publicly available on [Zenodo]()
 1. TZ-SAM: https://www.transitionzero.org/products/solar-asset-mapper/download
 2. ChinaPV: https://doi.org/10.6084/m9.figshare.25347880.v1
 3. GlobalPV:https://cxh1216.users.earthengine.app/view/solarpv-bnu
+
+
 ## 💡Global PV Mapping Result
 ### Distribution of global PV power plants in 2025
 ![image](assets/mapping_2025.png)
+
+## 🍺 Visualization
+![image](assets/comparison_vis.png)
 
 ## 📜Citation
 If you use our product or this study is helpful for you, please cite this project.
