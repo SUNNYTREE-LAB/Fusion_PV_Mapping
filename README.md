@@ -5,7 +5,9 @@
 - [x] **[2025.09.18]** We establish homepage of this paper
 
 ## 📖 Abstract
-This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index (ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to 2025Q2.
+This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index (ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to Q2 2025.
+![image](assets/framework.png)
+
 ## 🏆Mapping Product
 Our mapping product will be publicly available on [Zenodo]()
 
@@ -23,6 +25,17 @@ Our mapping product will be publicly available on [Zenodo]()
 2. ChinaPV: https://doi.org/10.6084/m9.figshare.25347880.v1
 3. GlobalPV:https://cxh1216.users.earthengine.app/view/solarpv-bnu
 
+## 🔥Usage
+There are two steps to realize our proposed multi-source data fusion method for PV power plant extraction.
+### Download the preprocessed data.
+1. Our cases can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1nS-LVr2jhYIkXBeiRs4hzLsfD-d3Iryi?usp=sharing)
+or [Baidu Netdisk](https://pan.baidu.com/s/172XVS8_vsbFg46Ae3HML2Q?pwd=v9wc)
+2. Put the file in folder `./data/`
+### Fusion
+Run fusion code:
+```shell
+python fusion.py
+```
 
 ## 💡Global PV Mapping Result
 ### Distribution of global PV power plants in 2025
@@ -36,8 +49,8 @@ If you use our product or this study is helpful for you, please cite this projec
 ```bibtex
 @article{FusionPVMapping,
   title={Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method},
-  author={Xiaopeng Zeng, Weilu Sun, Mingming Jia, Zhaohui Xue and Liqun Sun},
-  journal={},
+  author={Xiaopeng Zeng, Weilu Sun, Mingming Jia, Zhaohui Xue, Chan Zhou, and Liqun Sun},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
   year={2025}
 }
 ```
