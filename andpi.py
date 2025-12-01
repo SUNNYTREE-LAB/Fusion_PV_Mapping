@@ -64,7 +64,7 @@ def find_best_threshold(NDPI_data, mode=None, bins=200, range_min=-0.5, range_ma
             valley_idx = start_idx + valley_idx_in_section
             valley_x = bin_centers[valley_idx]
         else:
-            valley_x = 1.0  # failed to find an appropriate threshold
+            valley_x = data.mean()  # failed to find an appropriate threshold
 
     if mode == 'old':
         if len(peaks_sorted) >= 2:
@@ -75,7 +75,7 @@ def find_best_threshold(NDPI_data, mode=None, bins=200, range_min=-0.5, range_ma
             valley_idx = start_idx + valley_idx_in_section
             valley_x = bin_centers[valley_idx]
         else:
-            valley_x = 1.0  # Failed to find an appropriate threshold
+            valley_x = data.mean()  # Failed to find an appropriate threshold
 
     return valley_x
 
