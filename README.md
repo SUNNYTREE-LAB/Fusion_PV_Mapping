@@ -5,7 +5,7 @@ This paper develop an efficient framework for global PV mapping that integrates 
 ![image](assets/framework.png)
 
 ## 🏆Mapping Product
-Our mapping product will be publicly available on [Zenodo]()
+Our mapping product will be publicly available on [Zenodo](https://zenodo.org/records/17780251)
 
 ## 🛠️Requirement
 * python >= 3.12.7
@@ -23,7 +23,7 @@ Our mapping product will be publicly available on [Zenodo]()
 
 ## 🔥Usage
 There are two steps to realize our proposed multi-source data fusion method for PV power plant extraction.
-### Download the preprocessed data.
+### Download the preprocessed data
 1. Our cases can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1nS-LVr2jhYIkXBeiRs4hzLsfD-d3Iryi?usp=sharing)
 or [Baidu Netdisk](https://pan.baidu.com/s/172XVS8_vsbFg46Ae3HML2Q?pwd=v9wc)
 2. Put the file in folder `./data/`
