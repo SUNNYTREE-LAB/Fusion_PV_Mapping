@@ -1,11 +1,11 @@
 <h1 align="center"> Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method </h1>
 
+## ✅Mapping Product
+Our mapping product is publicly available on [Zenodo](https://zenodo.org/records/17780251)
+
 ## 📖 Abstract
 This paper develop an efficient framework for global PV mapping that integrates the proposed adaptive normalized difference photovoltaic index (ANDPI) with a multi-source data fusion algorithm to extract accurate contours of PV power plants from Sentinel-2 imagery. We generate the global mapping product of PV power plants at 10 m resolution from 2019 to Q2 2025.
 ![image](assets/framework.png)
-
-## 🏆Mapping Product
-Our mapping product is publicly available on [Zenodo](https://zenodo.org/records/17780251)
 
 ## 🛠️Requirement
 * python >= 3.12.7
