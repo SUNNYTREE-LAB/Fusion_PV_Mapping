@@ -5,7 +5,7 @@ This paper develop an efficient framework for global PV mapping that integrates 
 ![image](assets/framework.png)
 
 ## 🏆Mapping Product
-Our mapping product will be publicly available on [Zenodo](https://zenodo.org/records/17780251)
+Our mapping product is publicly available on [Zenodo](https://zenodo.org/records/17780251)
 
 ## 🛠️Requirement
 * python >= 3.12.7
