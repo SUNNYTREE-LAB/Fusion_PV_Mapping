@@ -47,7 +47,11 @@ If you use our product or this study is helpful for you, please cite this projec
   title={Global high-resolution mapping of photovoltaic power plants from 2019 to 2025 using unsupervised index-based multi-source data fusion method},
   author={Xiaopeng Zeng, Weilu Sun, Mingming Jia, Zhaohui Xue, Chan Zhou, and Liqun Sun},
   journal={International Journal of Applied Earth Observation and Geoinformation},
-  year={2025}
+  year={2025},
+  volume={145},
+  pages={105005},
+  issn={1569-8432},
+  doi={https://doi.org/10.1016/j.jag.2025.105005}
 }
 ```
 ## ❤️Acknowledgements
